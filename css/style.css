@@ -1,0 +1,120 @@
+/* Importer fichier setting css */
+@import url("__setting.css");
+
+body {
+    background-color: var(--main-bg);
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--main-text);
+    padding: 20px;
+}
+
+/* Conteneur principal en flex */
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+/* Card */
+.card{
+    background-color: var(--main-bg);
+    padding: 20px;
+    border: 1px solid var(--main_border);
+    border-radius: 10px;
+    box-shadow: 0 3px 40px var(--animation-color);
+   
+}
+.card:hover{
+    transform: translateY(-8px) scale(1.03) rotate(1deg);
+    box-shadow: 0 0 15px #0F5CD7;
+   
+}
+
+/* Titre de la page */
+.titre{
+    width: fit-content;
+    border: 1px solid var(--main_border);
+    border-radius: 10px;
+    padding: 5px;
+    box-shadow: 0 3px 40px var(--animation-color);
+}
+
+/* Contenu du card */
+.card-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+/* My profile */
+.profile-img img{
+    border: 1px solid var(--main_border);
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    box-shadow: 1px 3px 50px var(--animation-color);
+}
+
+/* Texte d'introduction */
+.intro h3{
+    text-align: center;
+}
+
+.intro p{
+    color: var(--secondary-text);
+}
+
+/* Grid skills */
+.grid-skills{
+    display: grid;
+    gap : 10px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.grid-skills .grid-item{
+    background-color: var(--skills_badge);
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.grid-skills .grid-item img{
+    width: 20px;
+}
+
+.grid-skills .grid-item span{
+    color: var(--secondary-text);
+}
+
+/* Conclusion */
+.text-end{
+    color: var(--secondary-text);
+    text-align: center;
+}
+
+/* Bouton d'action */
+.btn button{
+    background-color: var(--btn_bg);
+    color: var(--main-text);
+    padding: 10px 20px;
+    font-size: 20px;
+    border: 1px solid transparent;
+    border-radius: 10px;
+}
+.btn button:hover{
+    background-color: var(--btn_hover);
+}
+
+/* Responsive design */
+@media  screen and (max-width : 768px) {
+    .intro{
+        text-align: center;
+    }
+    .intro h1{
+        font-size: 1.5rem;
+    }
+}

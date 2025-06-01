@@ -1,0 +1,27 @@
+/* Parametre de mon style  */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Variable de couleur*/
+:root{
+
+    --main-bg : #0a0e1a; /* Bleu nuit tres foncé */
+
+    --main-text : #FFFF; /* Blan pur */
+
+    --secondary-text : #D1D5DB; /* Gris clair */
+
+    --btn_bg : #1E3A8A; /* Bleu gras lumineux */
+
+    --btn_hover : #3B82F6; /* Bleu clair */
+
+    --skills_badge : #1F2937; /* fond bleu marine */
+
+    --main_border : #60A5FA; /* Bleu clair dou */
+
+    --animation-color : rgb(30, 58, 138, 0.3); /* Dégradé bleu transparent */
+    
+}
