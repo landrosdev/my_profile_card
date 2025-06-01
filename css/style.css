@@ -1,5 +1,5 @@
 /* Importer fichier setting css */
-@import url("__setting.css");
+@import url("/css/__setting.css");
 
 html,body {
     background-color: var(--main-bg) !important;
