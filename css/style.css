@@ -1,8 +1,8 @@
 /* Importer fichier setting css */
 @import url("__setting.css");
 
-body {
-    background-color: var(--main-bg);
+html,body {
+    background-color: var(--main-bg) !important;
     font-family: Arial, Helvetica, sans-serif;
     color: var(--main-text);
     padding: 20px;
